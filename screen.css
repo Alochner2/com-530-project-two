@@ -5,3 +5,31 @@
 a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}html{line-height:1}body{line-height:inherit;}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}table{border-collapse:collapse;border-spacing:0}
 
 /* Begin site styles... */
+html {
+  background-color: #E2F0FF;
+  font-family: "Rosario", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 22px; /* ~120% of 18px */
+  padding: 2.0em 1.8333333333em;
+}
+h1 {
+  border-bottom: 0.3055555556em solid #963484;
+  color: #3066BE;
+  font-size: 35.156px;
+  font-weight: 600;
+  line-height: 35px;
+  padding-bottom: .40em;
+}
+p {
+  padding-bottom: 1.22em; color: #963484;
+}
+/* Responsive Media */
+img {
+  display: block;
+  max-width: 100%;
+  padding-bottom: 1.00em;
+}
+.photo figcaption {
+  position: absolute;
+  left: -10000px;
+}

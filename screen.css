@@ -25,7 +25,7 @@ h1 {
 }
 
 p {
-  padding-bottom: 1.22em; color: #963484;
+  padding-bottom: 1.22em; color: #000000;
 }
 /* Responsive Media */
 img {
@@ -56,6 +56,7 @@ img {
 @media screen and (min-width: 800px) {
   body {
     display: grid;
+    grid-column-gap: 1.2222222222em;
     grid-template-columns: 5fr 4fr;
   }
 }

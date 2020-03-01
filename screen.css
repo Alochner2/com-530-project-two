@@ -25,10 +25,11 @@ h1 {
 }
 
 p {
-  padding-bottom: 1.22em; color: #000000;
+  padding-bottom: 1.22em; color: #FFF;
 }
 /* Responsive Media */
 img {
+  border-radius: 0.3055555556em;
   display: block;
   max-width: 100%;
   padding-bottom: 1.00em;
@@ -40,7 +41,43 @@ img {
 
 /* Layout*/
 
+/*Modular Styles*/
+
+.information {
+  list-style-type: none;
+}
+.information li {
+  background: #000000;
+  border: 1px solid #000000;
+  border-radius: 0.3055555556em;
+  margin-bottom: 0.6111111111em;
+  padding: 0;
+}
+.information h2 {
+  color: #FFF;
+  display: block;
+  font-weight: bold;
+}
+.information p {
+  font-size: 0.8em;
+  padding-bottom: 0;
+}
+
 /* State Styles*/
+@media screen and (min-width:320px) {
+  .information {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -0.30555555556em;
+    margin-right: -0.30555555556em;
+  }
+  .information li {
+    flex: 1 0 100px;
+    margin-left: 0.30555555556em;
+    margin-right: 0.30555555556em;
+  }
+}
+
 @media screen and (min-width: 620px) {
   html {
     font-size: 1.25em;

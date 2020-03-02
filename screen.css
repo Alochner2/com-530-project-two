@@ -21,7 +21,9 @@ h1 {
   font-size: 3.333333333em; /*60/18 = 3.333333333em*/
   font-weight: 600;
   line-height: 1.125em;
-  padding-bottom: .10em;
+  padding-bottom: 0.10em;
+  padding-top: 1em;
+
 }
 
 h2 {
@@ -36,11 +38,6 @@ h3 {
   font-weight: 300;
   line-height: 1.125em;
   padding-bottom: .10em;
-}
-
-h4 {
-  color: #FFF;
-  padding-bottom: 1em;
 }
 
 p {
@@ -119,8 +116,9 @@ img {
   body {
     display: grid;
     grid-column-gap: 1.2222222222em;
-    grid-template-columns: 5fr 4fr;
+    
   }
+
   #footer {
     bottom: 0;
     grid-column: 1 / 3;

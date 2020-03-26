@@ -18,7 +18,7 @@ html {
 }
 
 h1 {
-  font-size: 3.333333333em; /*60/18 = 3.333333333em*/
+  font-size: 1.5em;
   font-weight: 600;
   line-height: 1.125em;
   padding-bottom: 0.10em;
@@ -26,7 +26,7 @@ h1 {
 }
 
 h2 {
-  font-size: 2.2222222222em;
+  font-size: 1.25em;
   font-weight: 300;
   line-height: 1.125em;
   padding-bottom: .10em;
@@ -91,14 +91,25 @@ img {
 }
 /* State Styles*/
 
+/* 200px = 200/16 = 12.5em*/
+@media screen and (min-width: 12.5em) {
+  h1 {
+    font-size: 1.25em;
+  }
+  h2 {
+    font-size: 1.15em;
+  }
+  .information ul {
+    font-size: .8em;
+  }
+
+
 /* 320px = 320/16 = 20em*/
 @media screen and (min-width:20em) {
   .information {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -0.30555555556em;
-    margin-right: -0.30555555556em;
+    display: grid;
   }
+
   .information li {
     flex: 1 0 100px;
     margin-left: 0.30555555556em;

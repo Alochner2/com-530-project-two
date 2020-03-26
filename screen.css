@@ -42,15 +42,18 @@ p {
 
 /* Responsive Media */
 img {
-  border-radius: 0.3055555556em;
   display: block;
   max-width: 100%;
-  padding-bottom: 2em;
 }
 
 .photo figcaption {
   position: absolute;
   left: -10000px;
+}
+
+.photo img {
+  border-radius: 0.3055555556em;
+  padding-bottom: 2em;
 }
 
 /* Layout*/
@@ -84,6 +87,7 @@ img {
   font-weight: 500;
   line-height: 1.125em;
   padding-bottom: .10em;
+  text-transform: uppercase;
 }
 /* State Styles*/
 
